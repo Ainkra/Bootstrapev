@@ -1,0 +1,24 @@
+#gunslogo {
+    font-family: 'Fascinate', cursive;
+    font-family: 'Grape Nuts', cursive;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#navbutton {
+    font-family: 'Fascinate', cursive;
+    font-family: 'Grape Nuts', cursive;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+
+.button {
+    color: white;
+}
+
+.button:hover {
+    color: red;
+}
