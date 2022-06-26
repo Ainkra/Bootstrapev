@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Grape+Nuts&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/abab09da6b.js" crossorigin="anonymous"></script>
     <title>Evaluation bootstrap</title>
 </head>
-<body>
+<body style="background: #111111;">
     <header>
         <nav class="navbar navbar-expand-xxl navbar-light bg-dark">
             <a class="navbar-brand text-white" href="#" id="gunslogo">Guns'N Roses</a>
@@ -28,10 +29,23 @@
         </nav>
     </header>
     <section>
-        <div class="container bg-black">
-
+        <div class="container">
+            <video autoplay loop muted playsinline data-video-init="true">
+                <source src="https://cdn.ontourmedia.io/gunsnroses/site_v2/animations/gnr_loop_logo_05.mp4" type="video/mp4">
+            </video>
         </div>
     </section>
-    <footer></footer>
+    <footer class="justify-content-center">
+        <div>
+            <ul class="social-network justify-content-center">
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-youtube"></i></li>
+            </ul>
+        </div>
+        <span class="justify-content-center">
+            <p class="copyright">Copyright</p>
+        </span>
+    </footer>
 </body>
 </html>

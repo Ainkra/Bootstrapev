@@ -22,3 +22,19 @@
 .button:hover {
     color: red;
 }
+
+video {
+    object-fit: contain;
+    width: auto;
+    height: auto;
+}
+
+
+.social-network {
+    list-style: none;
+    color: white;
+}
+
+.social-network:hover {
+    color: red;
+}
