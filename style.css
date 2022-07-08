@@ -1,4 +1,4 @@
-#gunslogo {
+#home {
     font-family: 'Fascinate', cursive;
     font-family: 'Grape Nuts', cursive;
     margin: 1rem;
@@ -35,6 +35,28 @@ video {
     color: white;
 }
 
-.social-network:hover {
-    color: red;
+.social-network-twit:hover {
+    color: rgb(94, 204, 255);
+}
+
+.social-network-fb:hover {
+    color: rgb(0, 60, 255);
+}
+
+.social-network-ytb:hover {
+    color: rgb(255, 0, 0);
+}
+
+#sn-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#copyright {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
