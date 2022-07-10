@@ -25,7 +25,7 @@
 }
 
 #home:hover, #otherlink:hover {
-    background: rgb(99, 99, 99);
+    background: #3c556d;
 }
 
 #navbutton {
@@ -35,14 +35,6 @@
     font-weight: bold;
     font-size: 1.5em;
     
-}
-
-.button {
-    color: white;
-}
-
-.button:hover {
-    color: red;
 }
 
 video {
@@ -59,15 +51,15 @@ video {
 }
 
 .social-network-twit:hover {
-    color: rgb(77, 198, 255) !important;
+    color: rgb(77, 198, 255) ;
 }
 
 .social-network-fb:hover {
-    color: rgb(0, 60, 255) !important;
+    color: rgb(0, 60, 255) ;
 }
 
 .social-network-ytb:hover {
-    color: rgb(255, 0, 0) !important;
+    color: rgb(255, 0, 0) ;
 }
 
 #sn-list {
@@ -90,7 +82,7 @@ a {
 }
 
 a:hover {
-    text-decoration:none;
+    text-decoration: none;
     
 }
 
@@ -102,5 +94,16 @@ a:hover {
     font-family: 'Fascinate', cursive;
     font-family: 'Grape Nuts', cursive;
     padding: 0px;
+    font-size: 1.5em;
+}
+
+.navbar {
+    background-color: #2C3E50;
+}
+
+.description {
+    font-family: 'Fascinate', cursive;
+    font-family: 'Grape Nuts', cursive;
+    padding: 10px;
     font-size: 1.5em;
 }
