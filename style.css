@@ -25,7 +25,7 @@
 }
 
 #home:hover, #otherlink:hover {
-    background: #3c556d;
+    background: #727272;
 }
 
 #navbutton {
@@ -34,7 +34,6 @@
     margin: 1rem;
     font-weight: bold;
     font-size: 1.5em;
-    
 }
 
 video {
@@ -42,6 +41,8 @@ video {
     max-width: 100%;
     height: auto;
     padding: 0px;
+    border-radius: 30px;
+    filter: blur(2px);
 }
 
 
@@ -72,7 +73,6 @@ video {
 .copyright {
     display: flex;
     align-items: flex-end;
-    /* justify-content: center; */
     align-content: center;
 }
 
@@ -98,7 +98,7 @@ a:hover {
 }
 
 .navbar {
-    background-color: #2C3E50;
+    background-color: #242424;
 }
 
 .description {
@@ -106,4 +106,32 @@ a:hover {
     font-family: 'Grape Nuts', cursive;
     padding: 10px;
     font-size: 1.5em;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.img-handler {
+    height: 200px;
+    object-fit: cover;
+    filter: blur(3px);
+}
+
+.card {
+    padding-bottom: 20px;
+    cursor: auto;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+body {
+    background: url(cardimg/background.jpg);
+    object-fit: cover;
+    background-size: cover;
 }
