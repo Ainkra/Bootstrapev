@@ -131,6 +131,10 @@ footer {
     text-decoration: underline;
 }
 
+.card-text {
+    font-size: medium;
+}
+
 body {
     background: url(cardimg/background.jpg);
     object-fit: cover;
