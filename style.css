@@ -117,12 +117,12 @@ footer {
 .img-handler {
     height: 200px;
     object-fit: cover;
-    filter: blur(3px);
+    filter: blur(1.5px);
 }
 
 .card {
     padding-bottom: 20px;
-    cursor: auto;
+    cursor: grab;
 }
 
 .card-title {
