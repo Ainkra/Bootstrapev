@@ -42,6 +42,8 @@ video {
     height: auto;
     padding: 0px;
     border-radius: 30px;
+    box-shadow: rgba(20, 20, 20, 0.4) -5px 5px, rgba(58, 58, 58, 0.3) -10px 10px, rgba(163, 163, 163, 0.2) -15px 15px, rgba(185, 185, 185, 0.1) -20px 20px, rgba(179, 173, 173, 0.05) -25px 25px;
+    filter: sepia(20);
 }
 
 
