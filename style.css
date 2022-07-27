@@ -42,7 +42,6 @@ video {
     height: auto;
     padding: 0px;
     border-radius: 30px;
-    filter: blur(2px);
 }
 
 
