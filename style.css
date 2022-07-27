@@ -129,11 +129,17 @@ footer {
     font-weight: bold;
     font-size: larger;
     text-decoration: underline;
+    font-family: 'Fascinate', cursive;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Rye', cursive;
 }
 
 .card-text {
-    font-size: 95%;
+    font-size: 80%;
     color:rgb(255, 255, 255);
+    font-family: 'Fascinate', cursive;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Rye', cursive;
 }
 
 body {
